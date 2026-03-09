@@ -1,0 +1,61 @@
+:root {
+    --color-bg: #f4f6f8;
+    --color-text: #222;
+    --color-primary: #0077ff;
+    --color-primary-hover: #0059c9;
+
+    --color-card-bg: #ffffff;
+    --color-card-shadow: rgba(0, 0, 0, 0.08);
+    --color-card-shadow-hover: rgba(0, 0, 0, 0.15);
+
+    --font-main: system-ui, sans-serif;
+    --font-size-title: 2.2rem;
+    --font-size-link: 1.1rem;
+
+    --padding-page: 40px;
+    --padding-item: 14px 18px;
+
+    --radius: 8px;
+    --transition-fast: 0.2s ease;
+
+     /* ===== BOTÓN PRIMARIO ===== */
+    --btn-primary-bg: #4a6cf7;
+    --btn-primary-hover-bg: #3b57ce;
+    --btn-primary-text: #ffffff;
+
+    /* ===== BOTÓN SECUNDARIO / NEUTRO ===== */
+    --btn-secondary-bg: #ffffff;
+    --btn-secondary-hover-bg: #4a6cf7;
+    --btn-secondary-text: #333333;
+    --btn-secondary-border: #ddd;
+
+    /* ===== BOTÓN DE PELIGRO / ELIMINAR ===== */
+    --btn-danger-bg: #e65252;
+    --btn-danger-hover-bg: #cc3d3d;
+    --btn-danger-text: #ffffff;
+
+    /* ===== BOTÓN DE ÉXITO ===== */
+    --btn-success-bg: #52c45e;
+    --btn-success-hover-bg: #3da64a;
+    --btn-success-text: #ffffff;
+
+    /* ===== BOTÓN DE INFO ===== */
+    --btn-info-bg: #4ac7f7;
+    --btn-info-hover-bg: #3bb0d7;
+    --btn-info-text: #ffffff;
+
+    /* ===== BOTÓN DE WARNING ===== */
+    --btn-warning-bg: #f7c44a;
+    --btn-warning-hover-bg: #d7aa3b;
+    --btn-warning-text: #333333;
+
+    /* ===== VARIABLES COMUNES ===== */
+    --btn-radius: 8px;
+    --btn-padding: 12px 22px;
+    --btn-font-family: system-ui, sans-serif;
+    --btn-font-weight: 600;
+    --btn-font-size: 1.05rem;
+    --btn-transition: 0.2s ease;
+    --btn-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+    --btn-box-shadow-hover: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
