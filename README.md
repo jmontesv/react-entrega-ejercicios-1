@@ -1,16 +1,88 @@
-# React + Vite
+# ⚛️ React — Entrega Ejercicios 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Colección de ejercicios prácticos de **React** correspondientes al módulo de React del **Máster de Desarrollo Web de [Conquer Blocks](https://conquerblocks.com/)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📋 Descripción
 
-## React Compiler
+Este repositorio contiene la primera entrega de ejercicios del módulo de React. Los ejercicios están orientados a practicar los conceptos fundamentales de React como componentes, props, estado, eventos y renderizado condicional.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** — Librería de interfaz de usuario
+- **Vite** — Herramienta de build y servidor de desarrollo con HMR
+- **JavaScript (ES6+)**
+- **CSS**
+- **ESLint** — Linting y calidad de código
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+react-entrega-ejercicios-1/
+├── public/              # Archivos estáticos públicos
+├── src/                 # Código fuente de los ejercicios
+│   ├── components/      # Componentes de cada ejercicio
+│   └── App.jsx          # Componente raíz
+├── index.html
+├── vite.config.js
+├── eslint.config.js
+└── package.json
+```
+
+---
+
+## ⚙️ Instalación y uso
+
+### Prerrequisitos
+
+- [Node.js](https://nodejs.org/) v18 o superior
+- npm o yarn
+
+### Pasos
+
+1. **Clona el repositorio:**
+
+   ```bash
+   git clone https://github.com/jmontesv/react-entrega-ejercicios-1.git
+   cd react-entrega-ejercicios-1
+   ```
+
+2. **Instala las dependencias:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Inicia el servidor de desarrollo:**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Abre tu navegador en `http://localhost:5173`
+
+### Scripts disponibles
+
+| Comando | Descripción |
+|---|---|
+| `npm run dev` | Inicia el servidor de desarrollo con HMR |
+| `npm run build` | Genera la build de producción en `/dist` |
+| `npm run preview` | Previsualiza la build de producción |
+| `npm run lint` | Ejecuta ESLint para revisar el código |
+
+---
+
+## 🎓 Contexto académico
+
+Estos ejercicios forman parte del **Máster de Desarrollo Web de Conquer Blocks**, concretamente del módulo dedicado a React. El objetivo es afianzar los conocimientos teóricos mediante la práctica con ejercicios progresivos.
+
+---
+
+## 👤 Autor
+
+Desarrollado por [jmontesv](https://github.com/jmontesv) como parte de su formación en el Máster de Desarrollo Web de Conquer Blocks.
